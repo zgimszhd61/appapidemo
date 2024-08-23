@@ -15,10 +15,10 @@ type Post = {
 }
 
 export async function generateMetadata({params}:PageProps):Promise<Metadata> {
-  const res = await fetch('xxxxxx')
-  const data = (await res.json() as Post)
+  // const res = await fetch('xxxxxx')
+  // const data = (await res.json() as Post)
   return {
-    title:data.title
+    title:"123123"
   }
 }
 
